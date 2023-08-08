@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500&family=Roboto:wght@300;400&display=swap');
+
+:root{
+	--bg-body: #F8F9FB;
+	--color-azul: #00ACB2;
+	--color-subtitulos-general-hind-contenido: #333;
+    --color-titulos-roboto: #3c3838;
+    --fondo-negro-hero: #25282F;
+    --fondo-classes: #F8F9FB;
+    --color-footer: #333;
+}
+body{
+	font-family: 'Hind', sans-serif;
+    font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	background-color: var(--bg-body);
+	color: #333;
+}
+h1,h2,h3,h4,h5,h6{
+	color: var(--color-titulos);
+}
+
+
+header{
+	background-color:var(--fondo-negro-hero)
+	/*box-shadow: 0px 0px 5px 3px #eee;*/
+}
+
+#hero{
+background-color:var(--fondo-negro-hero);
+background-size: cover;	
+padding-top: 5%;
+padding-bottom: 10%;
+margin-top: auto;
+margin-bottom: auto;
+font-family: 'Roboto', sans-serif;
+font-size: 20px;
+}
+
+
+#hero h2{
+font-family: 'Roboto', sans-serif;
+font-size: 50px;
+font-weight: lighter;
+color:#FFFFFF;
+}
+
+#hero h3{
+font-family: 'Roboto', sans-serif;
+font-size: 50px;
+font-weight: bold;	
+color:#FFFFFF;	
+}
+
+#hero p{
+font-family: 'Roboto', sans-serif;
+font-size: 14px;
+color:#FFFFFF;	
+padding-top: 3%;
+padding-bottom: 3%;
+}
+
+.btn-primary{
+ color:#FFFFFF;
+ background-color:#59BCC8;
+ font-family: 'Roboto', sans-serif;
+ border-radius: 0;
+ border-color:#59BCC8;
+}
+
+.btn-primary:hover{
+ background-color:#000000;
+ color:#FFFFFF;
+ font-family: 'Roboto', sans-serif;
+ border-radius: 0;
+ border-color:#59BCC8;
+}
+
+.btn-light{
+ color:#59BCC8;
+ background-color:#FFFFFF;
+ font-family: 'Roboto', sans-serif;
+ border-radius: 5;
+ border-color:#FFFFFF;
+ padding: 15px 30px;
+}
+
+.btn-info{
+ color:#FFFFFF;
+ background-color:#59BCC8;
+ font-family: 'Roboto', sans-serif;
+ border-radius: 5;
+ border-color:#59BCC8;
+ padding: 15px 30px		
+}
+
+#our classes{
+ font-family: 'Roboto', sans-serif;
+ color:#FFFFFF;
+ background-color:#F8F9FB;
+}
+
+#our classes h2{
+ font-family: 'Roboto', sans-serif;
+ font-size: 9px;
+ text-align:center;
+ color:#FFFFFF;
+ background-color:#F8F9FB;
+}
+
+.container text-center{
+width: 20px;
+height: 30px;
+}
+
+footer{
+	background-color: var(--color-footer: #333);
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+    text-align: center;
+	color:#FFFFFF;
+}
+
+#subscribe i{
+ display: inline-block;	
+ color:#FFFFFF;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
